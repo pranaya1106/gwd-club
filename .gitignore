@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+dist/
+build/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor
+.vscode/
+.idea/
+
+# Large video files
+*.MOV
+9.2.MOV
+REELS OR REGISTRATION.mp4
+TRYING TO EXPLAIN REEL IDEAS.mp4
+spiderman reel gwd club reg.mp4
+
+# Other large files
+*.exe
+FigmaSetup.exe
+
+# Temporary files
+*.log
+*.tmp
