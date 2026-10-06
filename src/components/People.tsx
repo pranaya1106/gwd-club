@@ -191,10 +191,10 @@ export default function People() {
               {/* Team Cards Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  { name: 'Event Management Team', lead: 'Bhavya Koduri', image: '/teams/event-management.jpg', accent: 'red' },
-                  { name: 'Marketing Team', lead: 'Anvita Reddy', image: '/teams/marketing.jpg', accent: 'green' },
-                  { name: 'Creative Team', lead: 'Nishta Gaur', image: '/teams/creative.jpg', accent: 'red' },
-                  { name: 'PR Team', lead: 'Tuba Azeem', image: '/teams/pr.jpg', accent: 'green' },
+                  { name: 'Event Management Team', lead: 'Bhavya Koduri', image: 'https://res.cloudinary.com/deuej3yvb/image/upload/v1791279017/WhatsApp_Image_2026-10-05_at_18.23.53.jpg', accent: 'red' },
+                  { name: 'Marketing Team', lead: 'Anvita Reddy', image: 'https://res.cloudinary.com/deuej3yvb/image/upload/v1791279017/WhatsApp_Image_2026-10-05_at_18.23.53_2.jpg', accent: 'green' },
+                  { name: 'Creative Team', lead: 'Nishta Gaur', image: 'https://res.cloudinary.com/deuej3yvb/image/upload/v1791279017/WhatsApp_Image_2026-10-05_at_18.23.54.jpg', accent: 'red' },
+                  { name: 'PR Team', lead: 'Tuba Azeem', image: 'https://res.cloudinary.com/deuej3yvb/image/upload/v1791279017/WhatsApp_Image_2026-10-05_at_18.23.53_1.jpg', accent: 'green' },
                 ].map((team, i) => (
                   <motion.div
                     key={team.name}

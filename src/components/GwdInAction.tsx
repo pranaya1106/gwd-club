@@ -31,7 +31,7 @@ export default function GwdInAction() {
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.7 }}
-              src="/industry/visit-1.jpg"
+              src="https://res.cloudinary.com/deuej3yvb/image/upload/v1791279022/_MG_8417.jpg"
               alt="Industrial Visit"
               className="w-full h-full object-cover"
             />
@@ -79,10 +79,30 @@ export default function GwdInAction() {
               <motion.img
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.7 }}
-                src="/industry/visit-2.jpg"
+                src="https://res.cloudinary.com/deuej3yvb/image/upload/v1791279019/_MG_8531.jpg"
                 alt="Industrial Visit - Team Learning"
                 className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500" />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="relative h-[300px] overflow-hidden border border-ink-800 group"
+            >
+              <motion.img
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.7 }}
+                src="https://res.cloudinary.com/deuej3yvb/image/upload/v1791279019/_MG_8548.jpg"
+                alt="Industrial Visit - Industry Interaction"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500" />
+            </motion.div>
+          </div>
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500" />
             </motion.div>
 

@@ -32,10 +32,15 @@ yarn-error.log*
 
 # Large video files
 *.MOV
+*.mov
+*.mp4
+*.MP4
 9.2.MOV
 REELS OR REGISTRATION.mp4
 TRYING TO EXPLAIN REEL IDEAS.mp4
 spiderman reel gwd club reg.mp4
+public/*.mp4
+public/**/*.mp4
 
 # Other large files
 *.exe
