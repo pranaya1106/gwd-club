@@ -36,7 +36,7 @@ export default function Hero() {
           className="absolute inset-0 w-full h-full object-cover opacity-50"
           style={{ filter: 'brightness(0.6)' }}
         >
-          <source src="https://res.cloudinary.com/deuej3yvb/video/upload/v1791279027/spiderman_reel_gwd_club_reg.mp4" type="video/mp4" />
+          <source src="https://drive.google.com/uc?export=download&id=1dzTBL1rdh2tHSY1-BReNxMESxl32zvPd" type="video/mp4" />
         </video>
         {/* Dark overlay to ensure content is readable */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
